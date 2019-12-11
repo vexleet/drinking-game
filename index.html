@@ -36,12 +36,13 @@
 
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/drinking-game/service-worker.js').then(function (registration) {
-                console.log('service worker registration succeeded:', registration);
-            },
-                function (error) {
-                    console.log('service worker registration failed:', error);
-                });
+            navigator.serviceWorker.register('/drinking-game/service-worker.js', { scope: '/drinking-game/' })
+                .then(function (registration) {
+                    console.log('service worker registration succeeded:', registration);
+                },
+                    function (error) {
+                        console.log('service worker registration failed:', error);
+                    });
         }
         else {
             console.log('service workers are not supported.');
