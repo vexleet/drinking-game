@@ -36,12 +36,15 @@
 
     <script>
         if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/service-worker.js')
-                    .then((reg) => {
-                        console.log('Service worker registered.', reg);
-                    });
-            });
+            navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
+                console.log('service worker registration succeeded:', registration);
+            },
+                function (error) {
+                    console.log('service worker registration failed:', error);
+                });
+        }
+        else {
+            console.log('service workers are not supported.');
         }
     </script>
     <script src="./scripts/app.js"></script>
