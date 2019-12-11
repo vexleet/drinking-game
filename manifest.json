@@ -8,7 +8,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "/index.html",
+    "start_url": "/drinking-game/index.html",
     "background_color": "#F2EDD7FF",
     "Theme_color": "#755139FF",
     "display": "standalone"
