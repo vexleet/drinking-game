@@ -5,11 +5,11 @@ const CACHE_NAME = 'static-cache-v2';
 
 // CODELAB: Add list of files to cache here.
 const FILES_TO_CACHE = [
-    '/',
-    '/index.html',
-    '/styles/style.css',
-    '/scripts/app.js',
-    'test.json',
+    '/drinking-game/',
+    '/drinking-game/index.html',
+    '/drinking-game/styles/style.css',
+    '/drinking-game/scripts/app.js',
+    '/drinking-game/test.json',
 ];
 
 self.addEventListener('install', (evt) => {

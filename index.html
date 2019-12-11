@@ -8,7 +8,7 @@
     <title>Drinking Game</title>
 
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="/drinking-game/manifest.json">
 </head>
 
 <body>
@@ -36,7 +36,7 @@
 
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
+            navigator.serviceWorker.register('/drinking-game/service-worker.js').then(function (registration) {
                 console.log('service worker registration succeeded:', registration);
             },
                 function (error) {
