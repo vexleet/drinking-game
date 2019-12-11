@@ -7,9 +7,19 @@
             "sizes": "192x192",
             "type": "image/png"
         }
+        {
+            "src": "assets/images/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
     ],
+    "apple-touch-icon": {
+        "src": "assets/images/icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }
     "start_url": "/drinking-game/index.html",
     "background_color": "#F2EDD7FF",
-    "Theme_color": "#755139FF",
+    "theme_color": "#755139FF",
     "display": "standalone"
 }

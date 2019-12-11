@@ -16,7 +16,7 @@ loadJSON(function (response) {
     const startButton = document.getElementsByClassName('start-button')[0];
     const challenges = JSON.parse(response);
 
-    startButton.addEventListener('click', startGame);
+    startButton.addEventListener('click', startGame, false);
     startButton.challenges = challenges;
 });
 
@@ -56,8 +56,7 @@ function startGame(evt) {
 
         turnsLeftEle.innerHTML = `${challenges.length} ${challenges.length === 1 ? 'път остава' : 'пъти остават'}`;
         isPaused = !isPaused;
-    });
-
+    }, false);
 }
 
 function wordsChange(challengeTitleEle, challenges) {
