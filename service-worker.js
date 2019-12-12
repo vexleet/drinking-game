@@ -8,7 +8,7 @@ const FILES_TO_CACHE = [
     '/drinking-game/styles/style.css',
     '/drinking-game/styles/bubbles-animation.css',
     '/drinking-game/scripts/app.js',
-    '/drinking-game/test.json',
+    '/drinking-game/challenges.json',
 ];
 
 self.addEventListener('install', (evt) => {
