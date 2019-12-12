@@ -14,7 +14,7 @@
         }
     ],
     "start_url": "/drinking-game/index.html",
-    "background_color": "#F3EFDF",
-    "theme_color": "#9B8271",
+    "background_color": "#F3CD00",
+    "theme_color": "#814B05",
     "display": "standalone"
 }
