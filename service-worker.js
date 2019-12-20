@@ -8,6 +8,7 @@ const FILES_TO_CACHE = [
     '/drinking-game/styles/style.css',
     '/drinking-game/styles/bubbles-animation.css',
     '/drinking-game/scripts/app.js',
+    '/drinking-game/scripts/rules-modal.js',
     '/drinking-game/challenges.json',
 ];
 

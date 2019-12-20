@@ -33,7 +33,27 @@
                 </div>
             </div>
 
-            <button class="start-button">Започни</button>
+            <div class="buttons">
+                <button class="start-button">Започни</button>
+                <button class="rules-button">Правила</button>
+            </div>
+
+            <div id="rules" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <ol>
+                        <li>Когато е ваш ред, натиснете на екрана, за да видите 
+                        вашите инструкции и след това ги прочетете на глас пред групата</li>
+
+                        <li>Довършете своя ред</li>
+                        
+                        <li>Предайте телефона на следващия играч!</li>
+                  </ol>
+                </div>
+              
+              </div>
         </main>
 
         <footer>
@@ -64,6 +84,7 @@
         }
     </script>
     <script src="./scripts/app.js"></script>
+    <script src="./scripts/rules-modal.js"></script>
 </body>
 
 </html>

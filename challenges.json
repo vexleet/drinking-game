@@ -2,121 +2,56 @@
     {
         "id": 1,
         "title": "Waterfall",
-        "description": "To perform a waterfall, each player starts drinking their beverage at the same time as the person to their left. No player can stop drinking until the player before them stops."
+        "description": "За да изпълни водопад, всеки играч започва да пие напитката си едновременно с човека отляво. Никой играч не може да спре да пие, докато играчът преди тях не спре."
     },
     {
         "id": 2,
         "title": "2 for you",
-        "description": "You point at two persons and tell them to drink. You can also tell one person to take two drinks."
+        "description": "Посочвате двама души и им казвате да пият. Можете също така да кажете на един човек да вземе две напитки."
     },
     {
         "id": 3,
         "title": "3 for me",
-        "description": "You take a drink"
+        "description": "Пийни си."
     },
     {
         "id": 4,
         "title": "Hit the floor",
-        "description": "Last person to touch the floor with their hands must take a drink."
+        "description": "Последният човек, който докосне пода с ръцете си, трябва да вземе пие."
     },
     {
         "id": 5,
         "title": "Fives Guys",
-        "description": "All guys drink"
+        "description": "Всички момчета пият."
     },
     {
         "id": 6,
-        "title": "Sixs chicks",
-        "description": "All girls drink"
+        "title": "Six's chicks",
+        "description": "Всички момичета пият."
     },
     {
-        "id": 1,
-        "title": "Waterfall",
-        "description": "To perform a waterfall, each player starts drinking their beverage at the same time as the person to their left. No player can stop drinking until the player before them stops."
+        "id": 7,
+        "title": "7th heaven",
+        "description": "Последният човек, който вдигне ръката си, ще пие."
     },
     {
-        "id": 2,
-        "title": "2 for you",
-        "description": "You point at two persons and tell them to drink. You can also tell one person to take two drinks."
+        "id": 8,
+        "title": "Mate",
+        "description": "Изберете човек, който да ви е другар и той пие, когато вие пиете до края на играта."
     },
     {
-        "id": 3,
-        "title": "3 for me",
-        "description": "You take a drink"
+        "id": 9,
+        "title": "Rhyme Time",
+        "description": "Казвате дума и човекът отдясно трябва да каже дума, която се римува. Това продължава около масата, докато някой не може да измисли дума. Този човек трябва да пие. Една и съща дума не може да се използва два пъти."
     },
     {
-        "id": 4,
-        "title": "Hit the floor",
-        "description": "Last person to touch the floor with their hands must take a drink."
+        "id": 10,
+        "title": "Categories",
+        "description": "Измисляте категория и човекът вдясно трябва да измисли нещо, което попада в тази категория. Това продължава около масата, докато някой не може да измисли нещо. Този човек трябва да пие."
     },
     {
-        "id": 5,
-        "title": "Fives Guys",
-        "description": "All guys drink"
-    },
-    {
-        "id": 6,
-        "title": "Sixs chicks",
-        "description": "All girls drink"
-    },
-    {
-        "id": 1,
-        "title": "Waterfall",
-        "description": "To perform a waterfall, each player starts drinking their beverage at the same time as the person to their left. No player can stop drinking until the player before them stops."
-    },
-    {
-        "id": 2,
-        "title": "2 for you",
-        "description": "You point at two persons and tell them to drink. You can also tell one person to take two drinks."
-    },
-    {
-        "id": 3,
-        "title": "3 for me",
-        "description": "You take a drink"
-    },
-    {
-        "id": 4,
-        "title": "Hit the floor",
-        "description": "Last person to touch the floor with their hands must take a drink."
-    },
-    {
-        "id": 5,
-        "title": "Fives Guys",
-        "description": "All guys drink"
-    },
-    {
-        "id": 6,
-        "title": "Sixs chicks",
-        "description": "All girls drink"
-    },
-    {
-        "id": 1,
-        "title": "Waterfall",
-        "description": "To perform a waterfall, each player starts drinking their beverage at the same time as the person to their left. No player can stop drinking until the player before them stops."
-    },
-    {
-        "id": 2,
-        "title": "2 for you",
-        "description": "You point at two persons and tell them to drink. You can also tell one person to take two drinks."
-    },
-    {
-        "id": 3,
-        "title": "3 for me",
-        "description": "You take a drink"
-    },
-    {
-        "id": 4,
-        "title": "Hit the floor",
-        "description": "Last person to touch the floor with their hands must take a drink."
-    },
-    {
-        "id": 5,
-        "title": "Fives Guys",
-        "description": "All guys drink"
-    },
-    {
-        "id": 6,
-        "title": "Sixs chicks",
-        "description": "All girls drink"
+        "id": 11,
+        "title": "Social",
+        "description": "Всеки трябва да пие."
     }
 ]

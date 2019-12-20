@@ -27,10 +27,11 @@ loadJSON(function (response) {
 
 function startGame(evt) {
     let challenges = evt.currentTarget.challenges.slice();
+    const buttons = document.getElementsByClassName('buttons')[0];
 
     turnsLeftEle.innerHTML = `${challenges.length} пъти остават`;
 
-    evt.currentTarget.style.display = 'none';
+    buttons.style.display = 'none';
     challengeTitleEle.style.display = 'block';
 
     wordsChangeInterval = setInterval(wordsChange, 150, challengeTitleEle, challenges);
